@@ -5,8 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <style>
+        .gray{
+            color: gray;
+        }
+    </style>
 </head>
 <body>
-    
+    <section class="hero">
+        <div class="flex  container mx-auto items-center">
+            <div class="vegimgs flex justify-center pl-10 w-[50%] pt-12">
+                <div>
+                    <img class="w-20 border-1 border-blue-400" src="./images/Product Image.png" alt="">
+                    <img class="w-20" src="./images/Product Image (2).png" alt="">
+                    <img class="w-20" src="./images/Product Image (3).png" alt="">
+                    <img class="w-20" src="./images/Product Image (4).png" alt="">
+                </div>
+                <div>
+                    <img class="w-105" src="./images/Product Image.png" alt="">
+                 </div>
+            </div>
+            <div class="details w-[50%] pr-20">
+                <div class="hdr flex gap-2 items-center  my-2">
+                    <p class="text-3xl font-bold">Chinese Cabbage</p>
+                    <p class="bg-green-200 px-2 rounded-sm">In Stock</p>
+                </div>
+                <div class="strs flex items-center gap-2">
+                  <div class="star flex gap-1">
+                    <img class="h-4 w-4" src="./images/icons/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMjctMDE2LnBuZw-removebg-preview.png" alt="">
+                    <img class="h-4 w-4" src="./images/icons/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMjctMDE2LnBuZw-removebg-preview.png" alt="">
+                    <img class="h-4 w-4" src="./images/icons/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMjctMDE2LnBuZw-removebg-preview.png" alt="">
+                    <img class="h-4 w-4" src="./images/icons/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMjctMDE2LnBuZw-removebg-preview.png" alt="">
+                    <img class="h-4 w-4" src="./images/icons/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMjctMDE2LnBuZw-removebg-preview.png" alt="">
+                  </div>
+                    <p class="gray">4 Review</p>
+                    <p>.</p>
+                    <p>SKU: <span class="gray">2,51,594</span> </p>
+                </div>
+                <div class="price flex gap-4 my-2">
+                    <p> <span class="gray line-through">$48.00</span> $17.28</p>
+                    <p class="bg-red-100 w-18 rounded-2xl text-red-500 px-2">64% off</p>
+                </div>
+                <div class="border-1 border-gray-100"></div>
+                <div class="flex justify-between my-2">
+                    <div class="flex items-center gap-2">
+                    <p>Brand:</p>
+                    <div class= "border-gray-100 border-1 flex flex-col items-center px-1">
+                        <img src="./images/icons/Group 20.png" alt="">
+                        <p style="font-family: 'Dancing Script', cursive;" class=" ">farmary</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3">
+                    <p>share items:</p>
+                    <p class="bg-green-600 font-sans font-bold text-2xl rounded-full text-white w-8 h-8 pl-[10px] ">f</p>
+                    <img src="./images/twitter 1.png" alt="">
+                    <img src="./images/instagram 1.png" alt="">
+                    <img src="./images/pinterest 1.png" alt="">
+                </div>
+                </div>
+                <div>
+                    <p class="gray w-[50%]">
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nibh diam, blandit vel consequat nec, ultrices et ipsum. Nulla varius magna a consequat pulvinar. 
+                    </p>
+                </div>
+                <div class="border-1 border-gray-100 my-2"></div>
+
+                <div class="flex gap-3 items-center justify-between">
+                    
+                    <div class="border-2 border-gray-100 w-34 rounded-3xl pl-2 py-2">
+                        <p><span class="bg-gray-100 text-xl px-[14px] py-[2px] rounded-full items-center mx-2">-</span>5 <span>
+                            <span class="bg-gray-100 text-lg px-3 py-1 rounded-full items-center mx-2">+</span>
+                        </span> </p>
+                    </div>
+                    <button class="flex items-center justify-center w-120 rounded-3xl  py-1 bg-green-600">add to cart <img src="./images/icons/Cart.png" alt=""></button>
+                    <img class="bg-green-100 p-2 rounded-full w-10" src="./images/icons/Heart.png" alt="">
+                </div>
+
+                <div class="border-1 border-gray-100 my-2"></div>
+
+                <p>Category: <span class="gray">Vegetables</span></p>
+                <p>Tag: <span class="gray">Vegetables, Healthy,</span> Chinese,<span class="gray"> Cabbage, Green Cabbage</span></p>
+                
+
+            </div>
+        </div>
+    </section>
 </body>
 </html>
